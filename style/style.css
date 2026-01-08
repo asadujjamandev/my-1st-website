@@ -1,24 +1,25 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 /* share style  */
-.open-sans{
+.open-sans {
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
 
-.logo h2{
-font-size: 45px;
-font-weight: 900;
+.logo h2 {
+  font-size: 45px;
+  font-weight: 900;
 }
-.color-orange{ 
+
+.color-orange {
   color: #FD6E0A;
 }
 
-.btn{
+.btn {
   background-color: #FD6E0A;
   border: none;
   padding: 18px 36px;
@@ -29,34 +30,38 @@ font-weight: 900;
   cursor: pointer;
 }
 
-.section-content{
+.section-content {
   max-width: 827px;
   text-align: center;
+  margin: 0 auto;
 }
-.section-content h2{
+
+.section-content h2 {
   color: #181818;
   font-size: 35px;
   font-weight: bold;
   margin-bottom: 30px;
 }
-.section-content p{
+
+.section-content p {
   font-size: 18px;
   font-weight: 400;
   color: #757575;
   margin: 0px 22px 30px 22px;
   line-height: 30px;
 }
+
 /* Main style */
 
-header{
+header {
   background-color: #FFF8F3;
-  background: url(../images/developer.png) , url(../images/header_bg.png) , #FFF8F3;
-  background-position: top left , bottom right;
+  background: url(../images/developer.png), url(../images/header_bg.png), #FFF8F3;
+  background-position: top left, bottom right;
   background-repeat: no-repeat;
   padding-top: 50px;
 }
 
-nav{
+nav {
   width: 65%;
   max-width: 1249px;
   margin: 0px auto;
@@ -65,48 +70,50 @@ nav{
   align-items: center;
 }
 
-nav .menu{
+nav .menu {
   display: flex;
   list-style-type: none;
   gap: 61px;
   align-items: center;
 }
 
-nav .menu a{ 
+nav .menu a {
   font-size: 20px;
   color: #474747;
   text-decoration: none;
 }
-#banner{
+
+#banner {
   margin: 47px 38px 0px 230px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-#banner .banerr-content{
+#banner .banerr-content {
   max-width: 585px;
 }
-.banner-image img{
+
+.banner-image img {
   max-width: 585px;
   vertical-align: middle;
 }
 
-#banner .banerr-content h2{
+#banner .banerr-content h2 {
   color: #474747;
   font-size: 45px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
-#banner .banerr-content h1{
+#banner .banerr-content h1 {
   font-size: 85px;
   color: #181818;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-#banner .banerr-content p{
+#banner .banerr-content p {
   font-size: 18px;
   font-weight: 400px;
   line-height: 30px;
@@ -114,11 +121,11 @@ nav .menu a{
   margin-bottom: 30px;
 }
 
-#about{
+#about {
   padding-top: 130px;
 }
 
-#about .about-container{
+#about .about-container {
   width: 65%;
   max-width: 1249px;
   margin: 0 auto;
@@ -127,20 +134,59 @@ nav .menu a{
   padding: 131px 157px;
 }
 
-#about .about-container .about-info{
+#about .about-container .about-info {
   display: flex;
   justify-content: space-around;
 }
 
-.about-info .info-card p{
-font-size: 20px;
-font-weight: 400;
-line-height: 30px;
-color: #757575;
-}
-.about-info .info-card h4{
+.about-info .info-card p {
   font-size: 20px;
-font-weight: bold;
-line-height: 30px;
-color: #474747;
+  font-weight: 400;
+  line-height: 30px;
+  color: #757575;
+}
+
+.about-info .info-card h4 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+  color: #474747;
+}
+
+#skill{
+  padding-top: 130px;
+}
+#skill .skill-container{
+max-width: 1140px;
+margin: 0 auto;
+}
+
+#skill .skill-container .skill-box{
+  display: flex;
+  gap: 24px;
+}
+
+.skill-box .skill-card{
+  padding: 30px;
+  max-width: 267px;
+  box-shadow: 0px 6px 50px 0px #0000002c;
+}
+
+.skill-card img{
+  max-width: 44px;
+  max-height: 44px;
+  margin-bottom: 30px;
+}
+.skill-card h3{
+  font-size: 20px;
+  font-weight: bold;
+  color: #181818;
+  margin-bottom: 20px;
+}
+
+.skill-card p{
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 28px;
+  color: #757575;
 }
